@@ -12,15 +12,16 @@
 
 Open a new file in your IDE
 
-* Create an svg element
-* Make sure to add the xmlns="http://www.w3.org/2000/svg" tag
-* Create a viewBox of 1000x1000 in that svg element at x 0, y 0
-* Draw a grid of 10x10 lines
-* Save the svg element as an svg file and call it grid.svg
-* Create a html file with an svg element in it and use your grid.svg as background for it
-* Using lines, draw a cube and align it with the grid
+* Using just javascript, create an svg element in your HTML body, give it a width and a height of 500.
+* Add a circle to the svg at x 100, y 100 with a radius of 50, also give it a color.
+* Add a hover effect to the circle where it dissapears when hovered over.
 
-Tip: Remeber that the width of the line takes up coordinate space too.
+* Make an array of 5 colors, use a palette from [coolers.co](https://coolors.co)
+* Use a loop to create 500 circles, they must:
+1. Have a `cx` and `cy` value of between 1 and 500.
+2. Have an `r` value of between 3 and 15.
+3. Use a random color from your colors array for the `fill` value.
+
 
 ## Submitting your work
 Create a new branch called **gh-pages** and upload your local work into this branch. Submit a new **pull request** and make sure to put the (working) **GitHub Pages URL** in the comment section. 
